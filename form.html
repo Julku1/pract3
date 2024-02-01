@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icons8-чай-64.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+   
+ <div class="anketa">
+    <div class="images">   <audio src="images/Спокойная Музыка Для Снятия Стресса (Spokoynaya Muzyka Dlya... (256  kbps).mp3" controls></audio></div>
+    
+    <div class="form">
+        <form action="#" method="get">
+        <fieldset>
+            <legend>ЛИЧНЫЕ ДАННЫЕ</legend>
+            <label for="username">имя</label>
+        <input type="text" name="username" id="username" placeholder="введите ваше имя" required tabindex="1" >
+       <br>
+          <label for="password">пароль</label>
+        <input type="password" name="password" id="password" placeholder="введите пароль"></input>
+        <br>
+        <label for="exampl@mail.ru">почта</label>
+        <input type="email" name="usermail" id="usermail" placeholder="example@mail.ru" tabindex="2">
+        <br>
+     
+        <label for="date">дата рождения</label>
+        <input type="date" name="date" id="date" placeholder="дата рождения" min="12" max="99"></input>
+        <br>
+        <label for="photo">фото профиля</label>
+        <input type="file" name="photo" id="photo"></input>
+        <br>
+        <p>ваш пол</p>
+        <label for="male">мужской</label>
+        <input type="radio" name="gender" id="male" checked></input>
+        <label for="female">женский</label>
+        <input type="radio" name="gender" id="female"></input>
+        <br>
+        </fieldset>
+        <fieldset>
+            <legend>ИНТЕРЕСЫ</legend>
+            <p>Ваши увлечения</p>
+            <label for="IT">IT</label>
+            <input type="checkbox" name="int" id="IT"></input>
+            
+            <label for="sport">Спорт</label>
+            <input type="checkbox" name="int" id="sport"></input>
+
+            <label for="art">творчество</label>
+            <input type="checkbox" name="int" id="art"></input>
+            
+            <label for="litr">литература</label>
+            <input type="checkbox" name="int" id="litr"></input>
+
+            <br>
+            <label for="about">расскажите о себе</label>
+            <br>
+            <textarea name="about" id="about" cols="30" rows="10"></textarea>
+            
+            <label for="theme">темы</label>
+            <select name="theme" id="theme" multiple>
+                <option value="js" selected>спорт</option>
+                <option value="js">искусство</option>
+                <option value="js">мода</option>
+                <option value="js">техника</option>
+                <option value="js">природа</option>
+                <option value="js">кулинария</option>
+            </select>
+        </fieldset>
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+    </form>
+    </div>
+    
+ </div>
+    
+</body>
+</html>

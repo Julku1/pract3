@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    font-size: 16px;
+}
+.header {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(236, 236, 233);
+    position: relative;
+    display: flex;
+}
+.header video {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    object-position: center; 
+    z-index: 0;
+}
+.content {
+    z-index: 1;
+    width: 100%; 
+    color: ghostwhite;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.348);
+
+}
+.knopki {
+    flex-direction: column;
+}
+
+.follow {
+    background-color: rgb(211, 232, 211);
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif; 
+}
+.link {
+    text-decoration: none;
+}
+
+.about {
+    margin-top: 30px;
+    margin-right: 60px;
+    padding: 15px;
+    display: flex;
+    gap: 30px;
+}
+.images {
+    border: 2px solid gray;
+    width: 100%;
+    height: 120vh;
+    margin: -5% 0;
+    box-shadow: 0 0 15px gray ;
+    background: url("/images/Сторисмейкер\ _\ Валерия.jpg") no-repeat  ;
+    position: absolute;
+    background-size: cover;
+    z-index: 0;
+}
+.about img {
+  height: 400px;
+  width: 330px;
+}
+.about p {
+    width: 50%;
+    font-size: 18px;
+}
+.vk {
+    background: url("/images/vk.png");
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: cover;
+}
+.tg {
+    background: url("/images/tg.png");
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: cover;
+}
+.be {
+    background: url("/images/be.png");
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: cover;
+}
+@media (max-width: 500px) {
+    body {
+     padding: 10px;
+     box-sizing: border-box;
+     font-size: 12px;
+     color: #0c3c0e;
+    }
+ }
+ a {
+    text-decoration: none
+ }
+ a:active {
+    text-decoration: none;
+ }
+ a:-webkit-any-link {
+    color: black;
+}
+
+.form {
+    background-color: rgb(241, 241, 229);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 30px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    border-radius: 10px;
+    box-shadow: #0c3c0e 0 16px 16px;
+   
+}
+fieldset {
+    padding: 15px;
+    margin-top: 10px;
+}
+h1 {
+ text-align: center;
+ margin-top: 30px;
+}
+legend {
+font-size: large;
+color: #0c3c0e;
+font-weight: bold;
+}
+input {
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: rgba(244, 255, 240, 0.542);
+}
+button {
+    background-color:#7fa466;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+button:focus,
+button:hover {
+    background-color: #cb9d5b;
+}
+audio {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 1%;
+    height: 30px;
+}
